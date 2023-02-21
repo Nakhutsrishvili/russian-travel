@@ -8,7 +8,6 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
   object-fit: cover;
-
 }
 
 @media screen and (max-width: 1024px) {
