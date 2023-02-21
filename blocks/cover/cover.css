@@ -1,0 +1,29 @@
+/* 1280 */
+.cover {
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 92px;
+  width: calc(100% - 2*48px);
+  display: flex;
+  flex-direction: column;
+}
+
+/* 1024 */
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+  .cover {
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cover {
+    padding-bottom: 64px;
+  }
+}
